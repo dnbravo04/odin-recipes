@@ -2,23 +2,49 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Odin Recipes</title>
   </head>
 
-  <body style="display: block; margin: 5%; margin-top: 0%">
+  <body>
     <h1>Odin recipes</h1>
-    <ul>
-      <li>
-        <a href="./recipes/colombian-roscones.html">Colombian Roscones</a>
-      </li>
-      <li>
-        <a href="./recipes/colombian-milhoja.html">Colombian Milhoja</a>
-      </li>
-      <li>
-        <a href="./recipes/colombian-merengon.html">Colombian Merengón</a>
-      </li>
-    </ul>
+    <div class="flex-container">
+      <a href="./recipes/colombian-roscones.html">
+        <div class="card">
+          <img
+            class="card-img"
+            src="https://elcalderoerrante.github.io/recetas_img/Roscones.jpg"
+          />
+          <div class="container">
+            <p>Colombian dessert</p>
+            <h2>Colombian Roscones</h2>
+          </div>
+        </div>
+      </a>
+      <a href="./recipes/colombian-milhoja.html">
+        <div class="card">
+          <img
+            class="card-img"
+            src="https://www.santaelena.com.co/wp-content/uploads/2021/03/milhojas-web-1200x675.jpg"
+          />
+          <div class="container">
+            <p>Colombian dessert</p>
+            <h2>Colombian Milhoja</h2>
+          </div>
+        </div>
+      </a>
+      <a href="./recipes/colombian-merengon.html">
+        <div class="card">
+          <img
+            class="card-img"
+            src="https://images.aws.nestle.recipes/resized/58a970aa95e6bd90d951d79c29a1b2bc_GettyImages-518273814-2_1200_600.jpg"
+          />
+          <div class="container">
+            <p>Colombian dessert</p>
+            <h2>Colombian Merengón</h2>
+          </div>
+        </div>
+      </a>
+    </div>
   </body>
 </html>
